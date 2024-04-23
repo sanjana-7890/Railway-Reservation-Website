@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Indian Railways - NRCTC Online Reservation 
+        </title>
+        <link rel = "stylesheet" href="NRCTC.css">
+        <script src="main.js"></script>
+    </head>
+
+
+
+<body>
+
+    <div class="zone1 " style="background-color: black; padding-top: 70px; text-align: center;" >
+        <div class="logo"></div>
+        <div class="name"> <span class="stretchedText" style="letter-spacing: 2px; display: inline-block;font-size: 32px;color: chartreuse; padding-left: 25px;padding-top: 7px; text-decoration: underline;"><b>National Railways Catering and Tourism Corporation</b></span></div>
+        <div class="flag"></div>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+        
+
+        <div class="navbar topnav" style="width: fit-content; margin-left: 180px;margin-bottom: 250px;">
+            
+            <a class="active" href="Home.html"><i class="fa fa-fw fa-home"></i> Home</a> &emsp;
+            <a class="active space" href="Login.html"><i class="fa fa-sign-in-alt"></i> Login</a>
+            <a href="Register.html"><i class="fa fa-fw fa-user gap2"></i>Register</a>
+            <a href="e-Catering.html"><i class="fas fa-bread-slice gap2"></i> e-Catering</a>
+            <a href="Holiday.html"><i class="fas fa-glass-cheers gap2"></i> Holiday Packages</a>
+            <a href="ServiceAtStations.html"><i class="	fa fa-cogs gap2"></i> Services At Stations</a>
+            <a href="Contact Us.html"><i class="fa fa-fw fa-envelope gap2"></i> Contact Us</a>
+            <input type="text" placeholder="Search...">
+        </div>
+    </div>
+
+
+    <div id="text" class="zone2 scroll">
+        <div class="top_rectangle">
+            <div>
+                <marquee class= "rectangle_text" direction="right" > <img src="new.gif"> <a href="https://www.civilaviation.gov.in/sites/default/files/State_wise_quarantine_regulation-converted.pdf" target="_blank">Latest Covid-19 State-Wise Advisory for Arrivals</a>  &emsp;&emsp;&emsp;&emsp;  <img src="new.gif"> <a href="https://contents.irctc.co.in/en/Important%20Message_Diversion.pdf" target="_blank" >List of Trains Cancelled / Diverted owing to the ongoing repair work of railway tracks in the Bilaspur division.</a>  &emsp;&emsp;&emsp;&emsp;  <img src="new.gif"> <a href="https://contents.irctc.co.in/en/CovidVaccinationInfoEng.pdf" target="_blank" >Latest Information on Covid-19 Vaccination Programme</a>  &emsp;&emsp;&emsp;&emsp;  <img src="new.gif"> <a href="https://www.irctctourism.com//EMAILER2022/LINEN/LINEN.html" target="_blank" >Click here for the list of trains where Linen Services have been restarted as on date.</a></marquee>>
+            </div>
+        </div>
+        <div style="background-color: white;height: 180px;width: 700px;position: absolute;top: 40px;left: 5px;">
+           <img src="modi.jpg" style="border: 7px red;">
+        </div>
+        <div style="background-color: white;height: 80px;width:80px;left: 0%;top: 540px;position: sticky; opacity: 1;z-index: 1000;">
+            <img src="namaste-covid.gif">
+        </div>
+        <div class="right_square">
+           <div class="banner"></div>
+           <div id="bookticket">
+                <b>Book Your Ticket Here</b>
+           </div>
+
+           
+            
+            <div class="details">
+                
+                <form>
+                    <ul>
+                        
+                        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+                        <i class="fsize fa fa-location-arrow"> &nbsp; <span style="font-weight: bold ; font-size: x-large; color: brown;">From</span> &emsp;<input type="text" placeholder="[STN-Code]" > </i> <br><br> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;
+                        <b><i class="fa fa-exchange-alt fa-rotate-90"></i></b><b class="fsize">  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                        <i class="fsize fa fa-map-marker"> &emsp;<span style="font-weight: bold ; font-size: x-large; color: brown;">To</span>&ensp; &emsp;&ensp;<input type="text" placeholder="[STN Code]"> </i> <br><br>
+                          </b> &emsp;&emsp;
+                          <label class="fsize"><strong>  </strong> </label>
+                            <select id="class" name="class">
+                                <option value="select"> All Classes</option>    
+                                <option value="1A">AC First Class (1A)</option>
+                                <option value="2A">AC 2 Tier (2A)</option>
+                                <option value="3A">AC 3 Tier (3A)</option>
+                                <option value="SL">Sleeper (SL)</option>
+                                <option value="2S">Second Sitting (2S)</option>
+                                <option value="CC">AC Chair Car (CC)</option>
+                                <option value="3E">AC 3 Economy (3E)</option>
+                                <option value="EC">Exec. Chair Car (EC)</option>
+                            </select>&emsp;&emsp;&emsp;&emsp;
+                        <label class="fsize"><strong>  </strong> </label>
+                            <select id="class" name="class">
+                                <option value="select">GENERAL</option>    
+                                <option value="ladies">LADIES</option>
+                                <option value="lower/senior">LOWER BIRTH/SR. CITIZEN</option>
+                                <option value="divyaang">DIVYAANG</option>
+                                <option value="tatkal">TATKAL</option>
+                                <option value="p-tatkal">PREMIUM TATKAL</option>
+                            </select>&emsp;&emsp;&emsp;&emsp;&emsp;
+                            
+                            <input type="Date" placeholder="DD-MM-YY">
+                            <br><br>
+                        
+                            
+                         &emsp;<input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                        <label for="vehicle1"> <b>Divyaang Concession</b></label><br>
+                        &emsp;<input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                        <label for="vehicle2"><b>Flexible with Date</b> </label><br>
+                        &emsp;<input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                        <label for="vehicle3"> <b>Train with Available Birth</b></label>
+                        
+                </ul>
+            </form>
+            
+            &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<button class="submit" type="button" onclick="trainB()" style="margin-top: -150px;"><span style="font-weight: bold ; font-size: x-large; color: black; text-align: right;">Search Trains</span> </button>
+            <div class="form-popup overlay" id="bookTrain">
+                <div class="popup">
+                <span style="color: rgb(20, 210, 156);"><h3>Due to technical issues this feature is currently halted.</h3></span> <br>
+                <span style="color: rgb(232, 85, 27); text-decoration: solid underline;"><h4>Please visit after - </h4></span> <br>
+                
+                <h2 id="demo" style="color:black" ></h2>
+                <button type="button" class="hide" onclick="trainC()">Close</button>
+                </div> </div>
+            
+            </div>
+        </div>
+
+        
+    
+        <div class="advt">
+            <img src="fssai-advt.jfif">
+        </div>
+
+        <div class="holding">
+            <div class="holiday box-shadow">
+                <span style="text-decoration: dotted underline ; color: rgb(14, 185, 153); font-weight: bold; font-size: 50px; font-family: 'Brush Script MT', cursive ;"><h4>Holidays</h4></span>
+            </div>
+
+            <div class="info">
+                <div class="container">
+                    <div class="img_container">
+                        <img src="maharaja.jpg">
+                    </div>
+        
+                    <div class="txt_container">
+                        <p><span style="font-size: xx-large; color: wheat; font-weight: bold; text-align: center; padding-top: 2px;"><u>Maharajas' Express</u></span></p>
+                        <p><span style="font-size: large; text-align: justify;">
+                            Redefining Royalty, Luxury and Comfort, Maharajas' express takes you on a sojourn to the era of bygone stately splendour of princely states. Sylvan furnishings, elegant ambience and modern amenities are amalgamated for an “Experience Unsurpassed”. It has been a winner of “World’s Leading Luxury train” by World Travel Awards consecutively for last six years.
+                        </span></p>
+                        <br>
+                        <a href="https://www.the-maharajas.com/" target="_blank" style="text-decoration: none;"><span style="color: aliceblue; font-size: large ;">Read More  <i class="fa fa-arrow-right"></i></span> </a>
+                    </div>
+        
+                </div>
+        
+                <div class="container1">
+                    <div class="img_container">
+                        <img src="pow.jpg">
+                    </div>
+        
+                    <div class="txt_container">
+                        <p><span style="font-size: xx-large; color: wheat; font-weight: bold; text-align: center; padding-top: 2px;"><u>The Palace on Wheels</u></span></p>
+                        <p><span style="font-size: large; text-align: justify;">
+                            The Palace on Wheels luxury train takes you on a scintillating journey into the royal land of sand dunes and regal palaces. Voted as the 4th best luxury train in the world, the Palace on Wheels carries with it an intrinsic ambience that goes perfectly well with the majestic charm and beauty spread so lavishly across the Indian terrain.
+                        </span></p>
+                        <br>
+                        <a href="https://thepalaceonwheels.com/" target="_blank" style="text-decoration: none;"><span style="color: aliceblue; font-size: large ;">Read More  <i class="fa fa-arrow-right"></i></span> </a>
+                    </div>
+        
+                </div>
+        
+                <div class="container2">
+                    <div class="img_container">
+                        <img src="sydney.jpg">
+                    </div>
+        
+                    <div class="txt_container">
+                        <p><span style="font-size: xx-large; color: wheat; font-weight: bold; text-align: center; padding-top: 2px;"><u>International Packages</u></span></p>
+                        <p><span style="font-size: large; text-align: justify;">
+                            Best deals in International Holiday packages, handpicked by NRCTC, for Thailand, Dubai, Sri Lanka, Hong Kong, China, Macau, Bhutan, Nepal, U.K., Europe, USA, Australia etc. The packages are inclusive of sightseeing, meals, visa charges and overseas medical insurance to give you a hassle-free and memorable experience.
+                        </span></p>
+                        
+                        <a href="https://www.irctctourism.com/" target="_blank" style="text-decoration: none;" ><span style="color: aliceblue; font-size: large ;">Read More  <i class="fa fa-arrow-right"></i></span> </a>
+                    </div>
+        
+                </div>
+               
+                <div class="container3">
+                    <div class="img_container">
+                        <img src="Kashmir.jpg">
+                    </div>
+        
+                    <div class="txt_container">
+                        <p><span style="font-size: xx-large; color: wheat; font-weight: bold; text-align: center; padding-top: 2px;"><u>Domestic Air Packages</u></span></p>
+                        <p><span style="font-size: large; text-align: justify;">
+                            Be it the spiritual devotee seeking blessings of Tirupati, Shirdi or Mata Vaishno Devi or the leisure traveller wanting to relish the Blue mountains of North East, Sand-dunes of Rajasthan, Hamlets of Ladakh, Wonders of Himalayas, Serene lakes or Picturesque Islands, NRCTC has it all. Discover India through NRCTC!
+                        </span></p>
+                        <br>
+                        <a href="https://www.irctctourism.com/" target="_blank" style="text-decoration: none;" ><span style="color: aliceblue; font-size: large ;">Read More  <i class="fa fa-arrow-right"></i></span> </a>
+                    </div>
+        
+                </div>
+        
+                <div class="container4">
+                    <div class="img_container">
+                        <img src="lord.jpg">
+                    </div>
+        
+                    <div class="txt_container">
+                        <p><span style="font-size: xx-large; color: wheat; font-weight: bold; text-align: center; padding-top: 2px;"><u>Domestic Air Packages</u></span></p>
+                        <p><span style="font-size: large; text-align: justify;">
+                            India, the country where Buddhism originated has rich memories of the Buddhist legacy. As part of its drive towards austerity, the only kind of art & architecture that it supported were Stupas, Chaityas & Viharas. Buddhist Train India will help you visit all these places up close for a truly religious experience.
+                        </span></p>
+                        <br>
+                        <a href="https://www.irctcbuddhisttrain.com/index" target="_blank" style="text-decoration: none;" ><span style="color: aliceblue; font-size: large ;">Read More  <i class="fa fa-arrow-right"></i></span> </a>
+                    </div>
+        
+                </div>
+
+                <div class="container5">
+                    <div class="img_container">
+                        <img src="nilgiri.jpg">
+                    </div>
+        
+                    <div class="txt_container">
+                        <p><span style="font-size: xx-large; color: wheat; font-weight: bolder ; text-align: center; padding-top: 2px;"><u>Rail Tour Packages</u></span></p>
+                        <p><span style="font-size: large; text-align: justify;">
+                            NRCTC offers Exclusive Rail tour packages with confirmed train tickets, sight-seeing and meals for enchanting Nilgiri Mountains, Darjeeling, Kullu Manali, Kashmir, Gangtok or divine tours of Mata Vaishno Devi, Rameswaram, Madurai, Shirdi, Tirupati etc. Holiday packages/ Land packages to these destinations are also available.
+                        </span></p>
+                        <br><br>
+                        <a href="https://www.irctctourism.com/" target="_blank" style="text-decoration: none;" ><span style="color: aliceblue; font-size: large ;">Read More  <i class="fa fa-arrow-right"></i></span> </a>
+                    </div>
+        
+                </div>
+
+                <div class="container6">
+                    <div class="img_container">
+                        <img src="chariot.jpg">
+                    </div>
+        
+                    <div class="txt_container">
+                        <p><span style="font-size: xx-large; color: wheat; font-weight: bolder ; text-align: center; padding-top: 2px;"><u>The Golden Chariot</u></span></p>
+                        <p><span style="font-size: large; text-align: justify;">
+                            The Golden Chariot train journey is the best way to experience the major and also offbeat tourism destinations of South India. A sojourn through well known & off beat destinations of South India in luxurious fashion. An adventure in comfort, a romance on rail tracks, with heritage & cultural destinations waiting for you to discover them.
+                        </span></p>
+                        <br><br>
+                        <a href="https://www.goldenchariot.org/" target="_blank" style="text-decoration: none;"><span style="color: aliceblue; font-size: large ;">Read More  <i class="fa fa-arrow-right"></i></span> </a>
+                    </div>
+        
+                </div>
+
+                
+            </div>
+        </div>
+
+        <div style="position:absolute;background-color: wheat;width: 1520px;height: 70px; top: 2590px;">
+            
+                
+                <div class="soc" style="margin-left: 920px; margin-top: 5px;">
+                    <a href="https://www.facebook.com/IRCTCofficial/" target="_blank"><img src="fb.png"></a>
+                </div>
+
+                <div class="soc" style="margin-left: 1000px; margin-top: -60px">
+                    <a href="https://twitter.com/IRCTCofficial" target="_blank"><img src="tweet.png"></a>
+                </div>
+
+                <div class="soc" style="margin-left: 1080px; margin-top: -60px">
+                    <a href="https://www.youtube.com/c/IRCTCOFFICIAL" target="_blank"><img src="youtube.png"></a>
+                </div>
+
+                <div class="soc" style="margin-left: 1160px; margin-top: -60px">
+                    <a href="https://www.linkedin.com/company/irctcofficial" target="_blank"><img src="linkedin.png"></a>
+                </div>
+
+                <div class="soc" style="margin-left: 1240px; margin-top: -60px">
+                    <a href="https://www.instagram.com/irctc.official/?igshid=yyg5byow704l" target="_blank"><img src="insta.jpg"></a>
+                </div>
+            
+
+                <div style="width: 642px; height: 62px;margin-top: -61px; margin-left: 120px;">
+                    <img src="connect.jpg">
+                </div>
+            
+
+        
+        </div>
+
+        <div class="last">
+            <img src="last.jpg">
+        </div>
+ 
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Login - NRCTC Online Reservation 
+        </title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+        <style>
+
+            /* Bordered form */
+form {
+  border: 3px solid #03506b;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: dodgerblue;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra style for the cancel button (red) */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+  position: relative;
+  text-align: start;
+  
+  margin-left: 630px;
+}
+
+/* Avatar image */
+img.avatar {
+  width: 250px;
+  border-radius: 50%;
+}
+
+/* Add padding to containers */
+.container {
+  margin-left: 510px;
+  padding: 16px;
+  width: 450px;
+  background-color: rgb(243, 158, 1);
+}
+
+
+
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(32, 126, 3);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgba(250, 112, 7, 0.975);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+
+
+
+
+
+        </style>
+    </head>
+
+
+
+<body>
+
+  <div style="background-color: rgb(188, 91, 133); width: 350px;height: fit-content;margin-left: 580px;text-align: center;">
+      <span style="color: wheat;font-size: 50px;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;text-decoration: dotted underline;">Login</span>
+  </div>
+  
+
+
+    <form action="action_page.php" method="post" >
+        <div class="imgcontainer">
+          <img src="avatar.png" class="avatar">
+        </div>
+
+        
+      
+        <div class="container">
+          <label for="uname"><b>Username</b></label>
+          <input type="text" placeholder="Enter Username" name="uname" required>
+      
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" required>
+      
+          <button type="submit"><span style="font-weight: bold; font-size: medium;">Login</span></button>
+          <label>
+            <input type="checkbox" checked="checked" name="remember"> Remember me
+          </label>
+        </div>
+      
+        <div class="container" style="background-color:#f1f1f1">
+          <a class="cancelbtn" href="Home.html"><b><i class="fa fa-home"  ></i></b></a>
+          
+          <span style="float: inline-start;">&emsp;&emsp;&emsp;&emsp;New User? <a href="Register.html"><span style="text-decoration: underline;">Register</span></a>&emsp;&emsp;&emsp;&emsp;<a href="#"><span style="text-decoration: underline;">Forgot password?</span> </a></span>
+          
+        </div>
+      </form>
+     
+
+      
+
+
+</body>
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Station Services - NRCTC Online Reservation</title>
+        <link rel="stylesheet" href="index.css"/>
+        <script src="main.js"></script>
+       
+    </head>
+
+    <body>
+    
+        <div style="background-color: black;position: relative; width: 1360px;height: 150px;border: 3px solid cyan; right: 80px; left: 80px;" class="navbar">
+            <div style="position: absolute; top: 12px;height: fit-content;width:fit-content ; left: 30px;">
+              <b><span style="letter-spacing: 2px; display: inline-block;font-size: 38px;color: chartreuse; padding-left: 130px;padding-top: 10px; text-decoration: underline; text-shadow: 10px 10px 25px rgb(81,67,21), -10px 10px 25px rgb(81,67,21), -10px -10px 25px rgb(81,67,21), 10px -10px 25px rgb(81,67,21);;">National Railways Catering and Tourism Corporation</span></b>
+            </div>
+              <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+              <a class="active1 gap" href="Home.html"><i class="fa fa-fw fa-home"></i></a>
+              <a class="active space" href="Login.html"><i class="fa fa-sign-in-alt"></i> Login</a>
+              <div style="background-color: rgb(91, 166, 209);position: absolute; top: 100px;height: fit-content;width:fit-content ; left: 240px;" class="topnav">
+                <a href="Register.html"><i class="fa fa-fw fa-user gap2"></i>Register</a>
+              <a href="e-Catering.html"><i class="fas fa-bread-slice gap2"></i> e-Catering</a>
+              <a href="Holiday.html"><i class="fas fa-glass-cheers gap2"></i> Holiday Packages</a>
+              <a href="ServiceAtStations.html"><i class="	fa fa-cogs gap2"></i> Services At Stations</a>
+              <a href="Contact Us.html"><i class="fa fa-fw fa-envelope gap2"></i> Contact Us</a>
+              <input type="text" placeholder="Search...">
+              </div>
+              
+            
+              
+            
+          </div>
+        <div style="background-color: rgb(242, 244, 246);position: relative; width: 860px;height: 1890px;border: 5px solid rgb(4, 85, 85); right: 230px; left: 350px; top: 25px;">
+            <h1 class="service">Service at station</h1>
+        
+            <div class="service2">
+            <h2 class="service1">1.   Book Platform Ticket </h2>
+            <form><!-- abhinandan-->
+            <ul>
+               <b>Enter Station&emsp;<input type="text" placeholder=" Enter STN Code "> </b> <br> <br>
+               <b>PNR No.&emsp;&emsp;&emsp;<input type="text" placeholder=" Enter PNR No. "> </b> <br> <br>
+               <b>Contact No.&emsp;<input type="text" placeholder=" Enter Contact No. "> </b> <br> <br>
+               <b><span style="color: darkred; text-decoration: dotted underline;">Price -  Rs. 20</span> </b>
+               &emsp;&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;<button class="submit" type="button" onclick="openForm()">Book Now</button>
+            
+            <div class="form-popup" id="myForm">
+            <div class="popup">
+            <h1>Your Service is Booked</h1>
+            <h2>You will get SMS</h2>
+            <button type="button" class="hide" onclick="closeForm()">Close</button>
+            </div> </div>
+   
+
+            </ul>
+        </form>
+        </div>
+
+        <div class="service2">
+            <h2 class="service1">2.   Book Wheel chair </h2>
+            <form><!-- abhinandan-->
+            <ul>
+               <b>Enter Station&emsp;<input type="text" placeholder=" Enter STN Code "> </b> <br> <br>
+               <b>PNR No.&emsp;&emsp;&emsp;<input type="text" placeholder=" Enter PNR No. "> </b> <br> <br>
+               <b>Contact No.&emsp;<input type="text" placeholder=" Enter Contact No. "> </b> <br> <br>
+               <b><span style="color: darkred; text-decoration: dotted underline;">Price -  Rs. 200</span> </b>
+               &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<button class="submit" type="button" onclick="openForm()">Book Now</button>
+            
+            <div class="form-popup" id="myForm">
+            <div class="popup">
+            <h1>Your Service is Booked</h1>
+            <h2>You will get SMS</h2>
+            <button type="button" class="hide" onclick="closeForm()">Close</button>
+            </div> </div>
+   
+
+            </ul>
+        </form>
+        </div>
+
+        <div class="service2">
+            <h2 class="service1">3.   Cloak rooms and Safety Lockers </h2>
+            <form><!-- abhinandan-->
+            <ul>
+               <b>Enter Station&emsp;<input type="text" placeholder=" Enter STN Code "> </b> <br> <br>
+               <b>PNR No.&emsp;&emsp;&emsp;<input type="text" placeholder=" Enter PNR No. "> </b> <br> <br>
+               <b>Contact No.&emsp;<input type="text" placeholder=" Enter Contact No. "> </b> <br> <br>
+               <b><span style="color: darkred; text-decoration: dotted underline;">Price -  Rs. 300 for 2 hrs.</span> </b>
+               &emsp;&emsp;&emsp;&emsp;<button class="submit" type="button" onclick="openForm()">Book Now</button>
+            
+            <div class="form-popup" id="myForm">
+            <div class="popup">
+            <h1>Your Service is Booked</h1>
+            <h2>You will get SMS</h2>
+            <button type="button" class="hide" onclick="closeForm()">Close</button>
+            </div> </div>
+   
+
+            </ul>
+        </form>
+        </div>
+
+        <div class="service2">
+            <h2 class="service1">4.    Book Rest Rooms</h2>
+            <form><!-- abhinandan-->
+            <ul>
+               <b>Enter Station&emsp;<input type="text" placeholder=" Enter STN Code "> </b> <br> <br>
+               <b>PNR No.&emsp;&emsp;&emsp;<input type="text" placeholder=" Enter PNR No. "> </b> <br> <br>
+               <b>Contact No.&emsp;<input type="text" placeholder=" Enter Contact No. "> </b> <br> <br>
+               <b><span style="color: darkred; text-decoration: dotted underline;">Price -  Rs. 800 for 1 day</span> </b>
+
+               &emsp;&emsp;&emsp;&emsp;<button class="submit" type="button" onclick="openForm()">Book Now</button>
+
+            <div class="form-popup" id="myForm">
+            <div class="popup">
+            <h1>Your Service is Booked</h1>
+            <h2>You will get SMS</h2>
+            <button type="button" class="hide" onclick="closeForm()">Close</button>
+            </div> </div>
+ 
+            </ul>
+        </form>
+        </div>
+        </div>
+    </body>
+</html>
